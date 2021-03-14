@@ -12,7 +12,7 @@ const useStyles = makeStyles({
     },
 });
 
-const MessageInputField = (name) => {
+const MessageInputField = ({ name }) => {
     const [text, setText] =useState('');
     const classes = useStyles();
     const avatarPath = gravatarPath(name); 
