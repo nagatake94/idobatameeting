@@ -8,7 +8,7 @@ const useStyles = makeStyles({
     root:{
         display: 'grid',
         height: '100vh',
-        gridTemplateRows: '1fr, auto',
+        gridTemplateRows: '1fr auto',
 
     }
 })
@@ -18,7 +18,7 @@ const Main = () =>{
     return (
     <div className={classes.root}>
         <MessageList />
-        <MessageInputField name={name}/>
+        <MessageInputField />
     </div>);
 };
 
