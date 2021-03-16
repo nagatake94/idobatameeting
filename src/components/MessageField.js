@@ -19,7 +19,7 @@ const [isComposed, setIsComposed] = useState(false);
         if (text === '') return;
 
         if (e.key === 'Enter'){
-            pushMessage({name: 'ながたけ' , text})
+            pushMessage({name , text})
             setText('');
             e.preventDefault();
         }
